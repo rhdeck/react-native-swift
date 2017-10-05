@@ -27,5 +27,3 @@ Future versions of Xcode may get less stupid and obviate the need for this packa
 * See the repository [react-native-swift-demo-module](https://github.com/rhdeck/react-native-swift-demo-module) for an example that uses this as a peerDependency.
 
 Time for me to confess that this is my first FOSS project. Let me know how it works for you! @ me: @ray_deck on twitter and rhdeck on Github. 
-
-And Wilking is Awesome too! 
