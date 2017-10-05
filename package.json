@@ -8,7 +8,7 @@
   },
   "rnpm": {
     "commands": {
-      "postlink": "node node_modules/testing/fixswift.js"
+      "postlink": "node node_modules/react-native-swift/fixswift.js"
     }
   },
   "author": {
