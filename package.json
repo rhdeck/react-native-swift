@@ -6,6 +6,9 @@
     "xcode": "https://github.com/apache/cordova-node-xcode",
     "glob": "*"
   },
+  "peerDependencies": {
+    "react-native": "^0.49.0"
+  },
   "rnpm": {
     "commands": {
       "postlink": "node node_modules/react-native-swift/fixswift.js"
