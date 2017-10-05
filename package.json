@@ -10,5 +10,17 @@
     "commands": {
       "postlink": "node node_modules/testing/fixswift.js"
     }
+  },
+  "author": { 
+    "name": "Ray Deck",
+    "email": "ray@raydeck.com",
+    "url": "https://github.com/rhdeck"
+  },
+  "bin" : "./fixswift.js",
+  "repository": {
+    "type":"git",
+    "url":"https://github.com/rhdeck/react-native-swift.git"
   }
+
+
 }
