@@ -22,7 +22,8 @@ Starting in XCode 9.0, you can create static libaries that contain swift code. J
 
 Future versions of Xcode may get less stupid and obviate the need for this package! 
 
-## Tip 
+## Tips 
 * When you set up the package.json the library package, add "react-native-swift" to the peerDependencies object. Will help others know how to make your module "just work" It will have pretty much no effect if it is buried in the tree. 
+* See the repository [react-native-swift-demo-module](https://github/rhdeck/react-native-swift-demo-module) for an example that uses this as a peerDependency.
 
 Time for me to confess that this is my first FOSS project. Let me know how it works for you! @ me: @ray_deck on twitter and rhdeck on Github. 
