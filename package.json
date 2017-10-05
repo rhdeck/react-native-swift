@@ -1,6 +1,6 @@
 {
   "name": "react-native-swift",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "license": "MIT",
   "dependencies": {
     "xcode": "https://github.com/apache/cordova-node-xcode",
@@ -11,16 +11,14 @@
       "postlink": "node node_modules/testing/fixswift.js"
     }
   },
-  "author": { 
+  "author": {
     "name": "Ray Deck",
     "email": "ray@raydeck.com",
     "url": "https://github.com/rhdeck"
   },
-  "bin" : "./fixswift.js",
+  "bin": "./fixswift.js",
   "repository": {
-    "type":"git",
-    "url":"https://github.com/rhdeck/react-native-swift.git"
+    "type": "git",
+    "url": "https://github.com/rhdeck/react-native-swift.git"
   }
-
-
 }
