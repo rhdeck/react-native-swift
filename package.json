@@ -1,0 +1,13 @@
+{
+  "name": "react-native-swift",
+  "version": "0.0.1",
+  "dependencies": {
+    "xcode": "https://github.com/apache/cordova-node-xcode",
+    "glob": "*"
+  },
+  "rnpm": {
+    "commands": {
+      "postlink": "node node_modules/testing/fixswift.js"
+    }
+  }
+}
