@@ -1,6 +1,7 @@
 {
   "name": "react-native-swift",
   "version": "0.0.1",
+  "license":"MIT",
   "dependencies": {
     "xcode": "https://github.com/apache/cordova-node-xcode",
     "glob": "*"
