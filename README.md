@@ -12,13 +12,15 @@ Fixes a React Native Xcode project to permit Swift-based native components.
 * Your native module will need to be compiled as a static library like any other.
 
 ## How to use it
-* npm install --save react-native-swift
-* react-native link
-
+```bash
+npm install --save react-native-swift
+npm install
+react-native link
+```
 Done! 
 
 ## How it works
-Starting in XCode 9.0, you can create static libaries that contain swift code. Just create swift code the way found on the react-native documentation and add it to a static library. For reasons unknown, a couple flags need to get set inside the Xcode project file for the app to work with the library. This package forces that issue by adding a blank swift file to the build phases of the app targets, and setting the swift version flag. 
+Starting in XCode 9.0, you can create static libaries that contain swift code. [Just create swift code the way found on the react-native documentation](https://facebook.github.io/react-native/docs/native-modules-ios.html) and add it to a static library. For reasons unknown, a couple flags need to get set inside the Xcode project file for the app to work with the library. This package forces that issue by adding a blank swift file to the build phases of the app targets, and setting the swift version flag. 
 
 Future versions of Xcode may get less stupid and obviate the need for this package! 
 
