@@ -4,5 +4,5 @@
     "peerDependencies": {
       "react-native-swift":"^0.10.0"
     },
-    "main": "index.js",
+    "main": "index.js"
 }
