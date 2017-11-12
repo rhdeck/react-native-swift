@@ -3,15 +3,14 @@
   "version": "0.10.0",
   "license": "MIT",
   "dependencies": {
-    "xcode": "https://github.com/apache/cordova-node-xcode",
-    "glob": "*"
-  },
-  "peerDependencies": {
-    "react-native": "^0.49.0"
+    "chalk": "^2.3.0",
+    "commander": "^2.11.0",
+    "glob": "^7.1.2",
+    "xcode": "https://github.com/apache/cordova-node-xcode"
   },
   "rnpm": {
     "commands": {
-      "postlink": "node node_modules/react-native-swift/fixswift.js"
+      "postlink": "node node_modules/react-native-swift/bin/fixswift.js"
     }
   },
   "author": {
@@ -19,7 +18,9 @@
     "email": "ray@raydeck.com",
     "url": "https://github.com/rhdeck"
   },
-  "bin": "./fixswift.js",
+  "bin": {
+    "react-native-swift": "./bin/cli.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/rhdeck/react-native-swift.git"
