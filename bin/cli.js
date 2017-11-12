@@ -9,9 +9,8 @@ program
      makeNewProject(projectname, projectpath); 
    })
 program
-  .command("*")
-  .action(function(){
-     program.help(); 
-  })
-program
   .parse(process.argv)
+
+if(!process.argv.slice(2).length) {
+  program.outputHelp(); 
+}
