@@ -19,7 +19,8 @@
     "url": "https://github.com/rhdeck"
   },
   "bin": {
-    "react-native-swift": "./bin/cli.js"
+    "react-native-swift": "./bin/cli.js",
+    "rns": "./bin/cli.js"
   },
   "repository": {
     "type": "git",
