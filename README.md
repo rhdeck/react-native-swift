@@ -38,8 +38,9 @@ You can add the Swift-based native module to you app relatively easily.
 ```bash
 yarn add myproject
 yarn add react-native-swift
+react-native link
 ```
-The *react-native-swift* package will take care of compatibility between your react native and the Swift based component. 
+The *react-native-swift* package will, via react-native link, take care of compatibility between your react native and the Swift based component. 
 Done! 
 
 ## How it works
