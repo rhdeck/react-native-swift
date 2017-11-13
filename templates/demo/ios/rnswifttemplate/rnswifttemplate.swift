@@ -12,7 +12,7 @@ class rnswifttemplate: RCTEventEmitter {
     }
     //Demonstrate a basic promise-based function in swift
     @objc func demo(_ message:String, success: RCTPromiseResolveBlock, reject: RCTPromiseRejectBlock) -> Void {
-        if(message.count === 0) {
+        if(message.count == 0) {
             print("I did not receive a message");
             reject(nil, nil, nil);
         } else {
