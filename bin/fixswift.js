@@ -5,6 +5,7 @@ var path = require('path');
 var glob = require('glob');
 //Get my directory
 var thisPath = process.argv[1];
+var thisPath = path.dirname(thisPath); //bin directory
 var thisPath = path.dirname(thisPath); //dependency directory
 var thisPath = path.dirname(thisPath); // node_modules
 var baseName = path.basename(thisPath);
