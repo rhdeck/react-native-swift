@@ -16,7 +16,7 @@ class rnswifttemplate: RCTEventEmitter {
             print("I did not receive a message");
             reject(nil, nil, nil);
         } else {
-            print("I received a message of " + "message");
+            print("I received a message of " + message);
             success(["demo message: " + message]);
         }
     }
