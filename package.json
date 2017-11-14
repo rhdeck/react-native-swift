@@ -18,10 +18,6 @@
     "email": "ray@raydeck.com",
     "url": "https://github.com/rhdeck"
   },
-  "bin": {
-    "react-native-swift": "./bin/cli.js",
-    "rns": "./bin/cli.js"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/rhdeck/react-native-swift.git"
