@@ -10,8 +10,8 @@ Fixes a React Native Xcode project to permit Swift-based native components.
 * XCode 9.0 or newer.
 * React Native 0.49 or newer (haven't tested it lower than that)
 
-## Install globally for development
-*react-native-swift* includes a helper utility for initializing new swift-based components. 
+## NEW: Add react-native-swift-cli to simplify development! 
+*react-native-swift-cli* includes a helper utility for initializing new swift-based components. 
 ```bash
 yarn global add react-native-swift
 ```
@@ -20,21 +20,8 @@ To learn how it works:
 react-native-swift --help
 ```
 
-## How to make a new Swift-based native module
-*react-native-swift* lets you quickly create a new swift-based native module and get coding.
-```bash
-react-native-swift init myproject
-open myproject/ios/*xcode*
-code myproject
-```
-## Wrapping with a test app
-*react-native-swift* also makes it easy to create a new almost-blank react-native app and add your swift component.
-```bash
-react-native-swift makeapp myprojecttest myproject
-```
-
 ## Adding to your app
-You can add the Swift-based native module to you app relatively easily. 
+Even when not using *react-native-swift-cli* you can add a Swift-based native module to you app relatively easily. 
 ```bash
 yarn add myproject
 yarn add react-native-swift
