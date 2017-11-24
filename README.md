@@ -11,7 +11,7 @@ Fixes a React Native Xcode project to permit Swift-based native components.
 * React Native 0.49 or newer (haven't tested it lower than that)
 
 ## NEW: Add react-native-swift-cli to simplify development! 
-*react-native-swift-cli* includes a helper utility for initializing new swift-based components. 
+*[react-native-swift-cli](https://npmjs.org/react-native-swift-cli/)* includes a helper utility for initializing new swift-based components. 
 ```bash
 yarn global add react-native-swift-cli
 ```
