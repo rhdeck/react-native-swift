@@ -13,7 +13,7 @@ Fixes a React Native Xcode project to permit Swift-based native components.
 ## NEW: Add react-native-swift-cli to simplify development! 
 *react-native-swift-cli* includes a helper utility for initializing new swift-based components. 
 ```bash
-yarn global add react-native-swift
+yarn global add react-native-swift-cli
 ```
 To learn how it works:
 ```bash
