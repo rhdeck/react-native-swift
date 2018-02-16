@@ -1,6 +1,6 @@
 {
   "name": "react-native-swift",
-  "version": "0.23.0",
+  "version": "1.0.0",
   "license": "MIT",
   "dependencies": {
     "glob": "^7.1.2",
