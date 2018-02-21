@@ -3,6 +3,7 @@ var pbxproj = require("xcode");
 var fs = require("fs");
 var path = require("path");
 var glob = require("glob");
+var cp = require("child_process");
 //Get my directory
 //Work with current dir
 var thisPath = process.cwd();
@@ -45,3 +46,13 @@ for (var key in properties) {
 }
 const out = proj.writeSync();
 fs.writeFileSync(filename, out);
+
+const packagePath = path.join(thisPath, "package.json");
+if (fs.existsSync(packagePath)) {
+  var package = require(packagePath);
+  if (!package.isSwift) {
+    package.isSwift = true;
+    fs.writeFileSync(packagePath, JSON.stringify(package, null, 2));
+    cp.spawnSync("react-native", ["fixpods"]);
+  }
+}
