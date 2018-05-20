@@ -53,6 +53,6 @@ if (fs.existsSync(packagePath)) {
   if (!package.isSwift) {
     package.isSwift = true;
     fs.writeFileSync(packagePath, JSON.stringify(package, null, 2));
-    cp.spawnSync("react-native", ["fixpods"]);
+    //cp.spawnSync("react-native", ["fixpods"]);
   }
 }
