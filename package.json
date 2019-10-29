@@ -6,11 +6,6 @@
     "glob": "^7.1.2",
     "@raydeck/xcode": "^2.2.0"
   },
-  "rnpm": {
-    "commands": {
-      "postlink": "node node_modules/react-native-swift/bin/postlink.js"
-    }
-  },
   "author": {
     "name": "Ray Deck",
     "email": "ray@raydeck.com",
