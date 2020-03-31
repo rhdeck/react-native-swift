@@ -1,15 +1,10 @@
 {
   "name": "react-native-swift",
-  "version": "2.0.0",
+  "version": "1.2.2",
   "license": "MIT",
   "dependencies": {
     "glob": "^7.1.2",
     "@raydeck/xcode": "^2.2.0"
-  },
-  "rnpm": {
-    "commands": {
-      "postlink": "node node_modules/react-native-swift/bin/postlink.js"
-    }
   },
   "author": {
     "name": "Ray Deck",
